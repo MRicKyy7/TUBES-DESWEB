@@ -47,7 +47,7 @@ const LoginPage = () => {
                 Lupa Password?
               </a>
             </div>
-            <Link to={'/landing'}>
+            <Link as={Link} to={'/'}>
               <button type="submit" className="bg-slate-800 hover:bg-slate-900 hover:text-slate-200 text-white  hover:border-slate-900 py-3 px-4 rounded w-full font-poppins font-bold mb-2">
                 Masuk
               </button>
