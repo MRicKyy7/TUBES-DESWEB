@@ -1,12 +1,21 @@
 import "./App.css";
 import LoginPage from "./pages/LoginPage";
-import Navbar from "./component/Navbar";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import Register from "./pages/RegisterPage";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <LoginPage />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/landing" element={<LandingPage/>}/>
+        <Route path="/login" element={<LoginPage />}/>
+        <Route path="/regis" element={<Register/>}/>
+
+
+      </Routes>
+      </BrowserRouter>
     </>
   );
 }
