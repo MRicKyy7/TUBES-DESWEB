@@ -1,3 +1,7 @@
+import benefit_learn from '../assets/benefit_learn.svg';
+import benefit_graduate from '../assets/benefit_graduate.svg';
+import benefit_work from '../assets/benefit_work.svg';
+
 function Benefit() {
   return (
     <section className="bg-zinc-200 flex flex-col pl-11 pr-10 max-md:px-5">
@@ -12,9 +16,9 @@ function Benefit() {
         <div className="flex flex-col self-start">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/548a0330-d80d-444e-a218-0098e13a9325?apiKey=23fb824677004c86b8742e2f02c99782&"
+            src={benefit_learn}
             className="aspect-square object-contain object-center w-20 fill-sky-950 overflow-hidden self-center max-w-full"
-            alt="Course 01"
+            alt="benefit_learn"
           />
           <h2 className="justify-center text-sky-950 text-center text-2xl font-extrabold leading-8 mt-8">
             01. Learn
@@ -27,7 +31,7 @@ function Benefit() {
         <div className="flex flex-col self-start">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7515faa8-7886-407e-99d4-c4687b788fbe?apiKey=23fb824677004c86b8742e2f02c99782&"
+            src={benefit_graduate}
             className="aspect-square object-contain object-center w-20 fill-sky-950 overflow-hidden self-center max-w-full"
             alt="Course 02"
           />
@@ -42,7 +46,7 @@ function Benefit() {
         <div className="flex flex-col self-start">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcd66d2f-4fe6-4842-aec5-a976f5cb67e0?apiKey=23fb824677004c86b8742e2f02c99782&"
+            src={benefit_work}
             className="aspect-square object-contain object-center w-20 fill-sky-950 overflow-hidden self-center max-w-full"
             alt="Course 03"
           />

@@ -28,6 +28,11 @@ const Navbar = () => {
       name: 'About',
       path: "/"
     },
+    {
+      id: 5,
+      name: 'Apa kek',
+      path: "/"
+    },
   ]
 
   return (
