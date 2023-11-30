@@ -181,7 +181,7 @@ const Navbar = () => {
                 <Link
                     onClick={scrollToHome}
                     to="/landing#Home"
-                    className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
+                    className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
                   >
                     Home
                   </Link>
@@ -190,7 +190,7 @@ const Navbar = () => {
                   <Link
                     onClick={scrollToCourse}
                     to="/landing#course"
-                    className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
+                    className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
                   >
                     Course
                   </Link>
@@ -199,7 +199,7 @@ const Navbar = () => {
                 <Link
                     onClick={scrollToAbout}
                     to="/landing#About"
-                    className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
+                    className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
                   >
                     About
                   </Link>
@@ -208,7 +208,7 @@ const Navbar = () => {
                 <Link
                     onClick={scrollToContact}
                     to="/landing#Contact"
-                    className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
+                    className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
                   >
                     Contact
                   </Link>

@@ -11,7 +11,7 @@ const DetailJs = () => {
       <Navbar />
       <div className="bg-[#B4C0D1]">
         <Header />
-        <div className="container mx-auto 1xl:-left-[20rem]  ">
+        <div className="container mx-auto  ">
         <div className="lg:hidden">
           <Detail/>
           <Mentor/>

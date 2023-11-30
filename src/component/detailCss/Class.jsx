@@ -4,7 +4,7 @@ const Class = () => {
     <>
       <div className="container mx-auto">
         <div className="flex">
-          <div className="bg-[#DBE1E9] w-full h-96 mt-5 relative shadow-md shadow-slate-800 rounded-lg outline outline-1 mx-auto -outline-offset-1 outline-slate-500 lg:w-[40rem]  xl:w-[58rem] lg:mx-auto 2xl:w-[70rem] 3xl:w-[85rem]">
+          <div className="bg-[#DBE1E9] w-full h-96 mt-9 relative shadow-md shadow-slate-800 rounded-lg outline outline-1 mx-auto -outline-offset-1 outline-slate-500 lg:w-[40rem]  xl:w-[58rem] lg:mx-auto 2xl:w-[70rem] 3xl:w-[85rem] 4xl:ml-48 ">
             <div className="absolute">
               <h2 className="text-slate-800 font-poppins text-lg font-semibold ml-3 mt-2 2xl:text-xl">
                 Tentang Kelas

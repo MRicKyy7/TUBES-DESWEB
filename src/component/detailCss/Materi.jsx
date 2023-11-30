@@ -3,7 +3,7 @@ const Materi = () => {
     <>
       <div className="container mx-auto">
         <div className="flex">
-          <div className="bg-[#DBE1E9] w-full mr-3  h-96 mt-5 relative shadow-md shadow-slate-800 rounded-lg outline outline-1 -outline-offset-1 outline-slate-500 lg:w-[40rem] xl:w-[58rem] 2xl:w-[70rem] 3xl:w-[85rem]">
+          <div className="bg-[#DBE1E9] w-full mr-3  h-96 mt-12 relative shadow-md shadow-slate-800 rounded-lg outline outline-1 -outline-offset-1 outline-slate-500 lg:w-[40rem] xl:w-[58rem] 2xl:w-[70rem] 3xl:w-[85rem] 4xl:ml-48 ">
             <div className="absolute">
               <h2 className="text-slate-800 font-poppins text-lg font-semibold ml-4 mt-3 2xl:text-lg">
                 Materi
