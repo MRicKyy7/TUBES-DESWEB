@@ -1,19 +1,23 @@
 import Navbar from "../component/Navbar";
 import HeroSection from "../component/HeroSection";
-// import Logreg from "../component/Logreg";
 import Content from "../component/Content";
-import Course from "../component/Course";
+// import Course from "../component/Course";
 import Up from "../component/Up";
+import Footer from "../component/Footer";
+import Courses from "../component/Courses";
+import Herosections from "../component/Herosections";
 
 function LandingPage() {
   return (
     <>
       <Navbar />
-      <Up/>
       {/* <Logreg/> */}
-      <HeroSection />
+      <Herosections/>
       <Content/>
-      <Course/>
+      {/* <Course/> */}
+      <Courses/>
+      <Up/>
+      <Footer/>
     </>
   );
 }

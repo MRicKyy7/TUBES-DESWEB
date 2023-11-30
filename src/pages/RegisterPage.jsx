@@ -98,10 +98,10 @@ function Register() {
                   <input
                     type={showPassword ? "text" : "password"}
                     id="password"
-                    className="w-80 border rounded border-slate-800 py-1.5 px-3xl:w-full md:w-80 lg:w-80 sm:w-80" required
+                    className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                   />
                   <span
-                    className="absolute sm:right-5 sm:top-1/2 sm:transform sm:-translate-y-1/2 right-12 top-1.5 cursor-pointer"
+                    className="absolute sm:right-5 sm:top-1/2 sm:transform sm:-translate-y-1/2 right-4 top-1.5 cursor-pointer"
                     onClick={togglePasswordVisibility}
                   >
                     {showPassword ? (
@@ -126,7 +126,7 @@ function Register() {
                     className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                   />
                   <span
-                    className="absolute sm:right-5 sm:top-1/2 sm:transform sm:-translate-y-1/2 right-12 top-1.5 cursor-pointer"
+                    className="absolute sm:right-5 sm:top-1/2 sm:transform sm:-translate-y-1/2 right-4 top-1.5 cursor-pointer"
                     onClick={toggleConfirmPasswordVisibility}
                   >
                     {showConfirmPassword ? (
