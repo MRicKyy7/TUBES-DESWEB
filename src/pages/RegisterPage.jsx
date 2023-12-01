@@ -1,4 +1,3 @@
-
 import { Link, useNavigate } from "react-router-dom";
 import wave from "../assets/Vector.svg";
 import Navbar from "../component/Navbar";
