@@ -1,4 +1,5 @@
-import { Link  } from "react-router-dom";
+
+import { Link, useNavigate } from "react-router-dom";
 import wave from "../assets/Vector.svg";
 import Navbar from "../component/Navbar";
 import { useState } from "react";
@@ -6,8 +7,16 @@ import eyeIcon from "../assets/eye.svg";
 import hideEye from "../assets/hide-eye.svg";
 
 function Register() {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [noTelp, setNoTelp] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -17,6 +26,37 @@ function Register() {
 
   const toggleConfirmPasswordVisibility = () => {
     setShowConfirmPassword(!showConfirmPassword);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (password !== confirmPassword) {
+      alert("Passwords do not match");
+      return;
+    }
+
+    const response = await fetch('https://65696405de53105b0dd6f962.mockapi.io/api/login/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        first_name: firstName,
+        last_name: lastName,
+        email: email,
+        password: password,
+        no_telp: noTelp,
+      }),
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      navigate("/login");
+    } else {
+      alert("Register gagal");
+    }
+    console.log(data);
   };
 
   return (
@@ -30,13 +70,13 @@ function Register() {
             className="absolute bottom-0 left-0 right-0 w-full -z-10 "
           />
         </div>
-        <div className="pt-5 "> 
+        <div className="pt-5 ">
           <div className=" bg-[#fff] sm:w-96 w-96 rounded p-8 shadow-md md:w-96 text-center z-30 mt-20 mb-10">
             <h2 className=" md:text-xl text-base  font-poppins font-semibold p-1 mb-5 -mt-3">
               {" "}
               Pendaftaran Akun
             </h2>
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="-mt-5 relative">
                 <label
                   htmlFor="firstName"
@@ -47,6 +87,7 @@ function Register() {
                 <input
                   type="text"
                   id="firstName"
+                  onChange={(e) => setFirstName(e.target.value)}
                   className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                 />
               </div>
@@ -60,6 +101,7 @@ function Register() {
                 <input
                   type="text"
                   id="lastName"
+                  onChange={(e) => setLastName(e.target.value)}
                   className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                 />
               </div>
@@ -73,6 +115,7 @@ function Register() {
                 <input
                   type="email"
                   id="email"
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                 />
               </div>
@@ -86,6 +129,7 @@ function Register() {
                 <input
                   type="tel"
                   id="phoneNumber"
+                  onChange={(e) => setNoTelp(e.target.value)}
                   className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                 />
               </div>
@@ -100,6 +144,7 @@ function Register() {
                   <input
                     type={showPassword ? "text" : "password"}
                     id="password"
+                    onChange={(e) => setPassword(e.target.value)}
                     className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                   />
                   <span
@@ -125,6 +170,7 @@ function Register() {
                   <input
                     type={showConfirmPassword ? "text" : "password"}
                     id="confirmPassword"
+                    onChange={(e) => setConfirmPassword(e.target.value)}
                     className="w-80 border rounded border-slate-800 py-1.5 px-3 xl:w-full md:w-80 lg:w-80 sm:w-80" required
                   />
                   <span
