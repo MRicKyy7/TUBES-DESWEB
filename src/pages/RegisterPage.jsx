@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link  } from "react-router-dom";
 import wave from "../assets/Vector.svg";
 import Navbar from "../component/Navbar";
 import { useState } from "react";
@@ -12,6 +12,8 @@ function Register() {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
+
+
 
   const toggleConfirmPasswordVisibility = () => {
     setShowConfirmPassword(!showConfirmPassword);

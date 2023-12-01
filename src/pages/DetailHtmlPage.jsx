@@ -26,10 +26,10 @@ const DetailHtmlPage = () => {
           </div>
           </div>
           <div className="justify-center ">
-        <Materi />
-        <Footer/>
+        <Materi />   
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   );

@@ -216,7 +216,7 @@ const Navbar = () => {
                 
                 {isLandingPage && (
                   <>
-                    <li className="group  right-0 lg:translate-x-32 xl:translate-x-[360px] 2xl:translate-x-[620px] 3xl:translate-x-[950px] 4xl:translate-x-[1140px] lg:absolute 5xl:translate-x-[1320px]">
+                    <li className="group  right-0 lg:right-20 lg:translate-x-32 xl:translate-x-[360px] 2xl:translate-x-[620px] 3xl:translate-x-[950px] 4xl:translate-x-[1140px] lg:absolute 5xl:translate-x-[1320px] ">
                       <Link to="/login">
                         <button
                           className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900 lg:text-lg lg:font-medium lg:border-2 lg:rounded-md lg:border-[#092850] lg:hover:rounded-md lg:hover:text-slate-950 lg:hover:bg-gray-400 lg:active:bg-gray-500 lg:focus:outline-none lg:focus:ring lg:focus:ring-slate-400 lg:p-1 lg:px-3"
@@ -225,7 +225,7 @@ const Navbar = () => {
                         </button>
                       </Link>
                     </li>
-                    <li className="group  right-0 lg:translate-x-56 xl:translate-x-[470px] 2xl:translate-x-[720px] 3xl:translate-x-[1060px] 4xl:translate-x-[1260px] lg:absolute 5xl:translate-x-[1450px]">
+                    <li className="group  right-0 lg:translate-x-56 lg:right-16 xl:translate-x-[470px] 2xl:translate-x-[720px] 3xl:translate-x-[1060px] 4xl:translate-x-[1260px] lg:absolute 5xl:translate-x-[1450px] mr-5">
                       <Link to="/regis">
                         <button
                           className="text-base font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900 lg:text-white lg:rounded-md lg:text-lg lg:font-poppins lg:p-1.5 lg:focus:outline-none lg:hover:text-[#d6d9de] lg:hover:bg-[#072040] lg:border-blue-950 lg:bg-blue-950 lg:active:bg-slate-900 lg:focus:ring lg:focus:ring-slate-500 right-0 "

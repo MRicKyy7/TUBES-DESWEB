@@ -102,9 +102,9 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div className="self-center flex w-full max-w-[967px] flex-col mt-16 mb-20 max-md:max-w-full max-md:my-10">
-          <div className="self-stretch mt-32 pr-4 max-md:max-w-full max-md:mt-10">
-            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div className="self-center flex w-full max-w-[967px] flex-col  mb-20 max-md:max-w-full max-md:my-10">
+          <div className="self-stretch mt-16 pr-4 max-md:max-w-full max-md:mt-10">
+            <div className="gap-10 flex max-md:flex-col max-md:items-stretch max-md:gap-28 ">
               <div className="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0 -mt-16">
                 <div className="bg-white flex w-full max-w-[415px] grow pl-0 flex-col mt-1.5 mx-auto pb-7 rounded-3xl max-md:mt-10">
                   <div className="flex-col overflow-hidden self-stretch relative flex aspect-[1.5580524344569289] w-full px-20 py-12 max-md:mr-px max-md:px-5">
@@ -148,7 +148,7 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-stretch w-[51%] ml-5 max-md:w-full max-md:ml-0 -mt-16">
+              <div className="flex flex-col items-stretch w-[51%] ml-5 max-md:w-full max-md:ml-0 -mt-16 pt-">
                 <div className="bg-white flex w-full max-w-[415px] pl-0 flex-col mx-auto pb-7 rounded-3xl md:mt-1">
                   <div className="flex-col overflow-hidden self-stretch relative flex aspect-[1.5580524344569289] w-full pt-12 pb-5 px-20 max-md:mr-px max-md:px-5">
                     <img
