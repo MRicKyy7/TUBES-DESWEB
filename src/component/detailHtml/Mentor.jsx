@@ -1,4 +1,5 @@
-import iconProfile from "../../assets/profile.svg"
+
+import { MdAccountCircle } from "react-icons/md";
 
 const Mentor = () => {
   return (
@@ -8,12 +9,12 @@ const Mentor = () => {
             <h2 className="font-poppins text-lg text-start ml-3 mt-3 font-semibold text-slate-800">Mentor</h2>
             <div className="flex ">
                 <div className="flex-row">
-                <img src={iconProfile} alt="profile"className=" absolute w-10 ml-4 top-[4rem] bg " />
+                <MdAccountCircle className="absolute w-14 h-14 top-14 left-2 bg " />
                 <h1 className="text-lg font-poppins font-medium absolute right-36 mt-6 translate-x-1/2
                   w-full lg:right-28"> Muhammad Syahrul Maulana</h1>
                   </div>
                   <div className="flex-row">
-                <img src={iconProfile} alt="profile"className=" absolute w-10 ml-4 top-32 bg " />
+                  <MdAccountCircle className="absolute w-14 h-14 bottom-4 left-2 bg " />
                 <h1 className="text-lg font-poppins font-medium absolute right-36 bottom-8 translate-x-1/2
                   w-full lg:right-28"> Admuham Isthakradhei</h1>
                   </div>

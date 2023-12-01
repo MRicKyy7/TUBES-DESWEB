@@ -4,7 +4,7 @@ const Footer = () => {
     <section className="bg-white flex flex-col mt-20">
         <div id="Contact"/>
       <div className="bg-white self-stretch flex h-28 w-full flex-col max-md:max-w-full" />
-      <h2 className="justify-center text-black text-2xl leading-7 max-w-[369px] mr-72 mt-16 md:mt-16 self-end sm:mt-[290px] sm:left-5 max-md:mr-2.5 max-md:mt-10 absolute md:left-[540px] md:-mr-1 mx-auto lg:left-[800px] xl:left-[1000px] 2xl:left-[1300px] 4xl:left-[1350px] 5xl:left-[1420px]">
+      <h2 className="justify-center text-black text-2xl leading-7 max-w-[369px] mr-72 mt-16 md:mt-16 self-end sm:mt-[290px] sm:left-5 max-md:mr-2.5 max-md:mt-10 absolute md:left-[540px] md:-mr-1 mx-auto lg:left-[800px] xl:left-[1000px] 2xl:left-[1300px] 4xl:left-[1350px] 5xl:left-[1790px]">
         Connect With Us
       </h2>
       <div className="self-center w-full max-w-6xl px-5 max-md:max-w-full">

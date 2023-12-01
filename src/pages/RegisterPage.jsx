@@ -21,6 +21,8 @@ function Register() {
     setShowPassword(!showPassword);
   };
 
+
+
   const toggleConfirmPasswordVisibility = () => {
     setShowConfirmPassword(!showConfirmPassword);
   };

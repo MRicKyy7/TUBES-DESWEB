@@ -13,24 +13,24 @@ const DetailPyPage = () => {
       <div className="bg-[#B4C0D1]">
         <Header />
         <div className="container mx-auto  ">
-          <div className="lg:hidden">
+        <div className="lg:hidden">
+          <Detail/>
+          <Mentor/>
+        </div>
+        <div className="lg:flex">
+          <div className="">
+            <Class  />
+        </div>
+          <div className="lg:flex-shrink sm:hidden lg:inline ">
             <Detail />
-            <Mentor />
+            <Mentor/>
           </div>
-          <div className="lg:flex">
-            <div className="">
-              <Class />
-            </div>
-            <div className="lg:flex-shrink sm:hidden lg:inline ">
-              <Detail />
-              <Mentor />
-            </div>
           </div>
           <div className="justify-center ">
-            <Materi />
-            <Footer />
+        <Materi />   
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   );
