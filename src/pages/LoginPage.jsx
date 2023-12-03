@@ -93,19 +93,7 @@ const LoginPage = () => {
                 htmlFor="remember"
                 className="text-gray-600 lg:text-lg sm:text-sm mr-4"
               >
-                <input
-                  type="checkbox"
-                  id="remember"
-                  className="mr-1 font-poppins font-light  "
-                />
-                Ingat Saya
               </label>
-              <a
-                href="/lupa-password"
-                className="text-black font-light font-poppins"
-              >
-                Lupa Password?
-              </a>
             </div>
             <button
               type="submit"

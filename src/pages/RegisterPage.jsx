@@ -185,25 +185,6 @@ function Register() {
                 </div>
               </div>
               <div className="mb-4 flex items-center mt-3 ml-2 relative">
-                <label
-                  htmlFor="agreeToTerms"
-                  className="text-gray-800 lg:text-sm sm:text-sm mr-4 font-poppins text-xs text-start flex items-center"
-                >
-                  <input
-                    type="checkbox"
-                    id="agreeToTerms"
-                    className="bg-black mr-3 relative" required
-                  />
-                  <div className="">
-                    Saya setuju dengan{" "}
-                    <a href="" className="text-blue-500 cursor-pointer">
-                      Syarat & Ketentuan{" "}
-                    </a>
-                    <a href=" " className="text-blue-500 cursor-pointer">
-                      Kebijakan Privasi
-                    </a>
-                  </div>
-                </label>
               </div>
               <button
                 type="submit"

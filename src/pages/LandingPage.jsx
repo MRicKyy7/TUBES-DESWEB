@@ -1,7 +1,5 @@
 import Navbar from "../component/Navbar";
-// import HeroSection from "../component/HeroSection";
 import Content from "../component/Content";
-// import Course from "../component/Course";
 import Up from "../component/Up";
 import Footer from "../component/Footer";
 import Courses from "../component/Courses";
@@ -11,10 +9,8 @@ function LandingPage() {
   return (
     <>
       <Navbar />
-      {/* <Logreg/> */}
       <Herosections/>
       <Content/>
-      {/* <Course/> */}
       <Courses/>
       <Up/>
       <Footer/>

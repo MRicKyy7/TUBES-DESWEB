@@ -1,6 +1,7 @@
 import Html from "../assets/html.svg";
 import Css from "../assets/css.svg";
 import { Link } from "react-router-dom";
+
 import { RiShoppingBasket2Fill } from "react-icons/ri";
 
 const Courses = () => {

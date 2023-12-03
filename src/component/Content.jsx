@@ -1,7 +1,3 @@
-// import imgLearn from "../assets/img1.svg";
-// import imgGraduate from "../assets/img2.svg";
-// import imgWork from "../assets/img3.svg";
-
 
 const Content = () => {
   return (
