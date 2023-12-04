@@ -3,7 +3,7 @@ import Navbar from "../component/Navbar";
 import Class from "../component/detailPy/Class";
 import Detail from "../component/detailPy/Detail";
 import Materi from "../component/detailPy/Materi";
-import Mentor from "../component/detailPy/Mentor";
+import Mentor from "../component/Mentor";
 import Footer from "../component/Footer";
 
 const DetailPyPage = () => {

@@ -1,11 +1,12 @@
-import Header from "../component/detailCss/Header";
+import Header from "../component/detailJsBeginner/Header";
 import Navbar from "../component/Navbar";
-import Class from "../component/detailCss/Class"
-import Detail from "../component/detailCss/Detail";
-import Materi from "../component/detailCss/Materi";
+import Class from "../component/detailJsBeginner/Class";
+import Detail from "../component/detailJsBeginner/Detail"
+import Materi from "../component/detailJsBeginner/Materi";
 import Mentor from "../component/Mentor";
 import Footer from "../component/Footer";
-const DetailCssPage = () => {
+
+const DetailJsBeginnerPage = () => {
   return (
     <>
       <Navbar />
@@ -35,4 +36,4 @@ const DetailCssPage = () => {
   );
 };
 
-export default DetailCssPage;
+export default DetailJsBeginnerPage;

@@ -39,13 +39,11 @@ const Navbar = () => {
   const isPythonPage = location.pathname === "/detailPython";
   const isHtmlPage = location.pathname === "/detailHtml";
   const isCssPage = location.pathname === "/detailCss";
+  const isPyIntermediatePage = location.pathname === "/detailPythonIntermediate";
+  const isJsBeginnerPage = location.pathname === "/detailJsBeginner";
+  const isDetail = location.pathname === "/detail";
+  
 
-  const scrollToCourse = () => {
-    const element = document.getElementById("course");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   const scrollToHome = () => {
     const element = document.getElementById("Home");
@@ -130,8 +128,8 @@ const Navbar = () => {
                 </li>
                 <li className="group">
                   <Link
-                    onClick={scrollToCourse}
-                    to="/landing#course"
+                    
+                    to="/detail"
                     className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900"
                   >
                     Course
@@ -156,7 +154,7 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                {isLandingPage && (
+                { (isLandingPage || isJsPage || isPythonPage || isHtmlPage || isCssPage || isJsBeginnerPage || isPyIntermediatePage || isDetail) && (
                   <>
                     {isLoggedIn ? (
                       <li className="group  right-0 lg:translate-x-56 lg:right-16 xl:translate-x-[470px] 2xl:translate-x-[720px] 3xl:translate-x-[1060px] 4xl:translate-x-[1260px] lg:absolute 5xl:translate-x-[1450px] ">
@@ -195,7 +193,7 @@ const Navbar = () => {
                     )}
                   </>
                 )}
-                {isLoggedIn && (isJsPage || isPythonPage || isHtmlPage || isCssPage) && (
+                {isLoggedIn && (isJsPage || isPythonPage || isHtmlPage || isCssPage || isJsBeginnerPage || isPyIntermediatePage || isDetail) && (
                   <li className="group right-0 lg:translate-x-56 lg:right-16 xl:translate-x-[470px] 2xl:translate-x-[720px] 3xl:translate-x-[1060px] 4xl:translate-x-[1260px] lg:absolute 5xl:translate-x-[1450px] ">
                     <button
                       className="text-xl font-poppins font-medium text-slate-900 py-2 mx-8 inline-flex  group-hover:text-blue-900 lg:text-white lg:rounded-md lg:text-lg lg:font-poppins lg:p-1.5 lg:focus:outline-none lg:hover:text-[#d6d9de] lg:hover:bg-[#072040] lg:border-blue-950 lg:bg-blue-950 lg:active:bg-slate-900 lg:focus:ring lg:focus:ring-slate-500 right-0"

@@ -13,18 +13,18 @@ const Footer = () => {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[21%] max-md:w-full max-md:ml-0">
               <nav className="justify-center text-black text-2xl font-semibold leading-7 max-w-[292px] max-md:mt-10 overflow-y-auto">
-                <ul>
+                <ul className="overflow-hidden">
                   <li>
-                    <a href="#Home">Home</a>
+                    <a href="/landing#Home">Home</a>
                   </li>
                   <li>
-                    <a href="#course">Course</a>
+                    <a href="/detail">Course</a>
                   </li>
                   <li>
-                    <a href="#Contact">Contact</a>
+                    <a href="/landing#Contact">Contact</a>
                   </li>
                   <li>
-                    <a href="#About">About</a>
+                    <a href="/landing#About">About</a>
                   </li>
                 </ul>
               </nav>
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
         <footer className="bg-gray-400 self-stretch flex w-full flex-col mt-24 px-20 py-2 max-md:max-w-full max-md:mt-10 max-md:px-5">
           <p className="text-white lg:text-2xl text-lg leading-7 self-center whitespace-nowrap max-md:max-w-full">
-            Copyright © 2023 Kelompok-6 -Desain-Website.{" "}
+            Copyright © 2023 Kelompok-6-Desain-Website.{" "}
             <a
               href="https://itk.ac.id/"
               target="_blank"

@@ -3,7 +3,7 @@ import Navbar from "../component/Navbar";
 import Class from "../component/detailHtml/Class"
 import Detail from "../component/detailHtml/Detail";
 import Materi from "../component/detailHtml/Materi";
-import Mentor from "../component/detailHtml/Mentor";
+import Mentor from "../component/Mentor";
 import Footer from "../component/Footer";
 const DetailHtmlPage = () => {
   return (
