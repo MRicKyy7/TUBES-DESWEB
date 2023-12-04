@@ -21,28 +21,6 @@ function HeroSection() {
           Get Free Consultation
         </div>
       </div>
-      <form
-        className="relative bg-white flex w-[492px] max-w-full items-start justify-between gap-5 mt-7 mb-20 pl-9 pr-3 py-2.5 rounded-lg self-start max-md:flex-wrap max-md:mb-10 max-md:pl-5"
-        aria-label="Search Form"
-      >
-        <label htmlFor="searchInput" className="justify-center text-slate-600 text-base self-center grow shrink basis-auto my-auto">
-        <input
-            type="text"
-            id="searchInput"
-            className="w-full bg-transparent border-none placeholder-slate-500 placeholder-opacity-50 focus:outline-none focus:ring-0"
-            placeholder="What do you learn today?"
-            aria-label="Search Input"
-        />
-        </label>
-        <div className="justify-between items-start bg-slate-900 self-stretch flex w-[142px] max-w-full gap-3.5 pl-8 pr-8 py-4 rounded-xl max-md:px-5">
-          <button
-            type="submit"
-            className="justify-center text-white text-center text-base font-medium leading-7 self-center whitespace-nowrap my-auto"
-          >
-            Search
-          </button>
-        </div>
-      </form>
     </main>
   );
 }

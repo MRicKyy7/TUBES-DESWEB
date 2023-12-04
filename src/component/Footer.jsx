@@ -1,7 +1,6 @@
-function Footer(props) {
+function Footer() {
   return (
     <section className="bg-white flex flex-col">
-      <div className="bg-white self-stretch flex min-h-[3029px] w-full flex-col max-md:max-w-full" />
       <h2 className="justify-center text-black text-2xl leading-7 max-w-[369px] mr-72 mt-16 self-end max-md:mr-2.5 max-md:mt-10">
         Connect With Us
       </h2>
