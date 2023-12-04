@@ -7,7 +7,7 @@ import DetailJsPage from "./pages/DetailJsPage";
 import DetailPyPage from "./pages/DetailPyPage";
 import DetailHtmlPage from "./pages/DetailHtmlPage";
 import DetailCssPage from "./pages/DetailCssPage";
-import Detail from "./pages/Detail";
+import Detail from "./pages/DetailPage";
 import DetailJsBeginnerPage from "./pages/DetailJsBeginnerPage";
 import DetailPyIntermediatePage from "./pages/DetailPythonIntermediatePage";
 
